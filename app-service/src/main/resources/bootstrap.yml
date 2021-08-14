@@ -1,0 +1,5 @@
+#Add properties to tell client, where it has to locate the registry and properties to register itself to the registry
+
+eureka.client.service-url.defaultZone = http://localhost:8761/eureka
+eureka.client.register-with-eureka = true
+eureka.client.fetch-registry = true
